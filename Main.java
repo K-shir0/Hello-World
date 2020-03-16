@@ -10,11 +10,11 @@ public class Main {
     public static void main(String[] args) {
 
        try {
-           String url = "https://google.com";
-//           Document doc = Jsoup.connect("https://www.yahoo.co.jp/").get();
+           String url = "http://archaeology.jp/learning/university/2018kougiichiran/#";
 
            Document doc = Jsoup.connect(url).get();
-           Elements elm = doc.select("title");
+
+           Elements elm = doc.select("tbody tr");
 
            for(Element elms: elm){
                String title = elms.text();
