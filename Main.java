@@ -10,15 +10,13 @@ public class Main {
     public static void main(String[] args) {
 
        try {
-           String url = "https://news.yahoo.co.jp";
+           String url = "https://techacademy.jp/";
 
            Document doc = Jsoup.connect(url).get();
+           Elements courses = doc.select(".top-bootcamp-courses div.block-content h3");
 
-           Elements newsHeadlines = doc.select(".topicsList li.topicsListItem a");
-
-           for(Element headline: newsHeadlines){
-
-               System.out.println("title: " + headline.ownText() + ", href: " + headline.absUrl("href"));
+           for(Element course: courses){
+               System.out.println(course.text());
            }
 
        } catch(IOException e){
