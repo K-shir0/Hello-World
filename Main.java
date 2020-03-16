@@ -10,15 +10,15 @@ public class Main {
     public static void main(String[] args) {
 
        try {
-           String url = "http://archaeology.jp/learning/university/2018kougiichiran/#";
+           String url = "https://news.yahoo.co.jp";
 
            Document doc = Jsoup.connect(url).get();
 
-           Elements elm = doc.select("tbody tr");
+           Elements newsHeadlines = doc.select(".topicsList li.topicsListItem a");
 
-           for(Element elms: elm){
-               String title = elms.text();
-               System.out.println(title);
+           for(Element headline: newsHeadlines){
+
+               System.out.println("title: " + headline.ownText() + ", href: " + headline.absUrl("href"));
            }
 
        } catch(IOException e){
