@@ -112,3 +112,28 @@ WBSはマスタスケジュールの元ネタにもなります。
 ![](https://www.innopm.com/wordpress/wp-content/uploads/2017/04/cdb0f909ec2de49ed8ae76ca994914f8.png)
 
 #### コスト
+プロジェクトに掛かるコストの総額と、内訳を記載します。
+内訳の粒度は、ソフトウェア（開発費、ライセンス費）、ハードウェア（本体費用）、ネットワーク費用、人件費などのレベルで記載します。
+
+![](https://www.innopm.com/wordpress/wp-content/uploads/2017/04/4ca3a5482e8cf08ca38658eb8cd6cb44-768x346.png)
+
+#### スケジュール
+重要なマイルストーンやクリティカルパスも明記します。
+詳細なスケジュールはWBSで管理する。
+
+![](https://www.innopm.com/wordpress/wp-content/uploads/2017/04/079532dc088920232a090d468d4c3763-768x392.png)
+
+#### 品質マネジメント
+システムおよび運用が達成すべき基準を具体的に定義します。
+サービスレベル定義書も別途作り詳細な基準を定義します。
+![](https://www.innopm.com/wordpress/wp-content/uploads/2017/04/6dfbbd484b634681626a0a2641bbc7b7-768x338.png)
+
+#### コミュニケーション
+会議体とコミュニケーションルールについて記載します。
+
+会議体
+![](https://www.innopm.com/wordpress/wp-content/uploads/2017/04/2157b0a9c25f05a6cf67f519e474c3b2-768x440.png)
+
+##### 議事録作成ルール
+##### プロジェクト管理ツール
+
